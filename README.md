@@ -26,5 +26,13 @@ Classes are like categories and class components are like things within the cate
 The reason the balls turn white after bouncing so many times is because (ok so I think this is it idk) the color values are in hex, and every hex code has a corresponding number in binary. Every time we multiply this number by 1.5 the number increases, making the hex code get "closer" to the highest number you can get in 6 digit hex which is ffffff, which is also pure white. hence why after enough bounces the balls turn white.
 
 
+
+### W4
+(table 2)
+line 5- declares a new float member vairable called _moveSpeed and sets its value to 1.0f
+line 22- declares a new float variable called translation and sets its value to the veritcal position of the object (I think it's itself) and multiplies it by a set speed and the number of frames that have passed
+line 25 - uses the translation variable to move the object's vertical position by that amount
+
+
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
