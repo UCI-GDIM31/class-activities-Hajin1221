@@ -34,5 +34,10 @@ line 22- declares a new float variable called translation and sets its value to 
 line 25 - uses the translation variable to move the object's vertical position by that amount
 
 
+(individual)
+1. we added rigidbodies to both the cat and the ball and made the box collider on the goal a trigger. This is because the cat and ball have to move around, and the ball has to be detecting collisions. we left the goal a trigger because the ball needs to pass through it and we need to use the contact between the ball and the goal to trigger something
+2. It didn't work at first because I put the part where you change the timer in the goalMade instead of using the update method. So I changed it. Also I accidentally called the Play() method but it wasnt inside any scopes so it didn't work.
+
+
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
