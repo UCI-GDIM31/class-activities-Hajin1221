@@ -38,6 +38,18 @@ line 25 - uses the translation variable to move the object's vertical position b
 1. we added rigidbodies to both the cat and the ball and made the box collider on the goal a trigger. This is because the cat and ball have to move around, and the ball has to be detecting collisions. we left the goal a trigger because the ball needs to pass through it and we need to use the contact between the ball and the goal to trigger something
 2. It didn't work at first because I put the part where you change the timer in the goalMade instead of using the update method. So I changed it. Also I accidentally called the Play() method but it wasnt inside any scopes so it didn't work.
 
+### W5
+(table 2)
+I need a one sentence summary of a transform vs a vector 3
+A: The transform is a vector 3 that has the objects position. a vector 3 is the datatype
 
+Notes for group assigment
+The plan:
+-create a target transform variable and a deer gameobject
+-make a vector3 variable called destination
+-Use the NavMeshAgent at the start to create a desination
+-Use the destination to move the deer towards the target by getting the NavMeshAgent and updating the position each frame
+
+(smth useful) if you call multiple game objects in update, you can't guarantee a specific order they're called
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
