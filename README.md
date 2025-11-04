@@ -53,3 +53,9 @@ The plan:
 (smth useful) if you call multiple game objects in update, you can't guarantee a specific order they're called
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
+
+
+### W6
+table 2
+(Romarick and I were doing the unity engine section)
+https://docs.google.com/document/d/1g257orHX8bQNaC57k1DMqCDIpAd95jDwpQPqJiA4ks8/edit?tab=t.0 
