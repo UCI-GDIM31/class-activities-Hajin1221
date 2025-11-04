@@ -59,3 +59,24 @@ The plan:
 table 2
 (Romarick and I were doing the unity engine section)
 https://docs.google.com/document/d/1g257orHX8bQNaC57k1DMqCDIpAd95jDwpQPqJiA4ks8/edit?tab=t.0 
+
+
+planning code:
+we need:
+-speed variable
+-location of cat (Vector3)
+-location of bat(Vector3)
+ 
+
+ We ended up having to figure it out as we did it
+
+
+ Partner Assigment
+1. Notes:
+-Create GameObject for the player
+-Create float for speed
+-Create a void method where the bat stop, stopping the bat.
+-Create a void method where the bat pursues the player, setting the player transform to the give transform.
+-Create a Update method that translate the bat to the player
+
+
