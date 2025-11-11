@@ -86,3 +86,5 @@ https://docs.google.com/document/d/1G_ZSCA2-UVtHll1uaPGUIZ9OZg3-oBIxvR5bJl7Vl6k/
 table 2
 I was doing the physics section w Romarick
 
+
+I think step 2 was moving the guy in world space when it's supposed to be local. so i changed vector3 to transform (idk but it works)
