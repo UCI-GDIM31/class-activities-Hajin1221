@@ -80,3 +80,9 @@ we need:
 -Create a Update method that translate the bat to the player
 
 
+### W7
+
+https://docs.google.com/document/d/1G_ZSCA2-UVtHll1uaPGUIZ9OZg3-oBIxvR5bJl7Vl6k/edit?tab=t.0 
+table 2
+I was doing the physics section w Romarick
+
